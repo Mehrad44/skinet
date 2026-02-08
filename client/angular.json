@@ -14,7 +14,7 @@
           "type":"component"
         
         },
-        "schematics/angular:service":{
+        "@schematics/angular:service":{
           "type":"service"
          
 
@@ -37,8 +37,9 @@
               }
             ],
             "styles": [
-              "src/styles.scss",
-              "src/tailwind.css"
+              "src/tailwind.css",
+              "src/styles.scss"
+              
             ]
           },
           "configurations": {
