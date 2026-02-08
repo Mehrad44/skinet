@@ -58,3 +58,7 @@ body {
   height: var(--mat-form-field-control-height) !important;
 
 }
+
+.mdc-notched-outline__notch{
+  border-right-style: none !important;
+}
