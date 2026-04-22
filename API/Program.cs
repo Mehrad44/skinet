@@ -34,6 +34,8 @@ builder.Services.AddAuthorization();
 builder.Services.AddIdentityApiEndpoints<AppUser>()
     .AddEntityFrameworkStores<StoreContext>();
 
+builder.Services.AddScoped<IpaymentService,PaymentService>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
